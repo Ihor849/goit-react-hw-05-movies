@@ -11,7 +11,11 @@ export const ListItem = styled.li`
   font-size: 14px;
   padding: 6px;
   max-width: min-content;
-  background-color: rgb(86, 100, 100);
+  background: linear-gradient(
+    337deg,
+    rgba(255, 60, 172) 0%,
+      rgba(120, 75, 160) 50%,
+      rgba(43, 134, 197) 100%);
   border-radius: 14px;
 
   :not(:last-child) {

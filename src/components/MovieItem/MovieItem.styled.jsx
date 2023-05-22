@@ -8,13 +8,18 @@ export const Item = styled.li`
     justify-content: center;
     -webkit-box-align: center;
     align-items: center;
-    background-color: rgb(86, 100, 100);
+    background: linear-gradient(
+    337deg,
+    rgba(255, 60, 172) 0%,
+      rgba(120, 75, 160) 50%,
+      rgba(43, 134, 197) 100%);
     border-radius: 6px;
 
   }
   :hover,
   :focus {
-    background-color: #00ffff;
+    background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+
 `
 export const Img = styled.img`
     display:flex;

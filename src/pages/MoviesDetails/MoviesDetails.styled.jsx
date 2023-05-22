@@ -13,15 +13,20 @@ export const  Linkback=styled(NavLink)`
   width:150px;
   padding: 5px 10px;
   margin-top: 10px;
-  border:1px solid  #0a9ab3;
+  border:2px solid  #2dd3d6;
+  background: linear-gradient(
+    337deg,
+    rgba(255, 60, 172) 0%,
+      rgba(120, 75, 160) 50%,
+      rgba(43, 134, 197) 100%);
   border-radius: 15px;
   font-size: 26px;
   font-weight: bold;
   margin-right: auto;
   &:hover,
   &:focus {
-    color: #c312b7;
-    text-shadow: 3px 3px 20px #0a9ab3, -2px 1px 30px  #0ca3c4;
+    color: #2dd3d6;
+    text-shadow: 3px 3px 20px #11da97, -2px 1px 30px  #11da97;
   } 
 `
 export const CastNavLink=styled(NavLink)`
@@ -29,18 +34,19 @@ export const CastNavLink=styled(NavLink)`
   align-items: center;
   justify-content: space-around;
   width:150px;
-  padding: 5px 10px;
+  padding: 10px 15px;
   
-  border:1px solid  #0a9ab3;
+  border:2px solid  #2dd3d6;
+  background: linear-gradient(
+    337deg,
+    rgba(255, 60, 172) 0%,
+      rgba(120, 75, 160) 50%,
+      rgba(43, 134, 197) 100%);
   border-radius: 15px;
   font-size: 26px;
   font-weight: bold;
   margin-right: auto;
-  &:hover,
-  &:focus {
-    color: #c312b7;
-    text-shadow: 3px 3px 20px #0a9ab3, -2px 1px 30px  #0ca3c4;
-  } 
+ 
 `
 
 export const FilmWrapper = styled.div`
@@ -61,7 +67,12 @@ width: 800px;
 `
 export const FilmImg = styled.img`
   max-width: 450px;
-  background: #424242;
+  background: linear-gradient(
+    337deg,
+    rgba(255, 60, 172) 0%,
+      rgba(120, 75, 160) 50%,
+      rgba(43, 134, 197) 100%);
+  border-radius: 14px;
   border-radius: 15px;
 `;
 
@@ -88,9 +99,6 @@ export const StyledListDescr = styled.ul`
   display: flex;
   gap: 18px;
   padding: 0;
-
-
-  /* border-radius: 20px; */
   color: #141313;
   margin-bottom: 12px;
 `;
