@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goit-react-hw-05-movies/static/css/main.7acaea2f.css",
-    "main.js": "/goit-react-hw-05-movies/static/js/main.af772745.js",
+    "main.js": "/goit-react-hw-05-movies/static/js/main.b4fa8ce0.js",
     "static/media/zvezdnoe-nebo.jpg": "/goit-react-hw-05-movies/static/media/zvezdnoe-nebo.265412ba413dc1a2f8c6.jpg",
     "static/media/defaultMovie.jpeg": "/goit-react-hw-05-movies/static/media/defaultMovie.71253f31d01ef6cdd4cc.jpeg",
     "static/media/defaultImage.jpg": "/goit-react-hw-05-movies/static/media/defaultImage.7b7a6ca910672ffb6298.jpg",
@@ -14,10 +14,10 @@
     "index.html": "/goit-react-hw-05-movies/index.html",
     "static/media/SearchButton.svg": "/goit-react-hw-05-movies/static/media/SearchButton.5024de53284fb39f32460ada6d65df39.svg",
     "main.7acaea2f.css.map": "/goit-react-hw-05-movies/static/css/main.7acaea2f.css.map",
-    "main.af772745.js.map": "/goit-react-hw-05-movies/static/js/main.af772745.js.map"
+    "main.b4fa8ce0.js.map": "/goit-react-hw-05-movies/static/js/main.b4fa8ce0.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.af772745.js"
+    "static/js/main.b4fa8ce0.js"
   ]
 }
