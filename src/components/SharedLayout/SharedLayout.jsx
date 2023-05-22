@@ -1,7 +1,7 @@
 import { Suspense } from 'react';
 import { Outlet} from 'react-router-dom';
-import { ReactComponent as Clapperboard } from 'components/img/icons/Clapperboard.svg';
-import { ReactComponent as Popcorn } from 'components/img/icons/Popcorn.svg';
+import { ReactComponent as Clapperboard } from '../../img/icons/Clapperboard.svg';
+import { ReactComponent as Popcorn } from '../../img/icons/Popcorn.svg';
 import {Container, Header, StyledLink,NavLinkItems} from './SharedLayout.styled';
 
 

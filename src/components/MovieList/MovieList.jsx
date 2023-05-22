@@ -3,7 +3,7 @@ import { useLocation} from 'react-router-dom';
 import ButtonUpTop from 'components/ButtonUpTop/ButtonUpTop'
 import {Box,ListFilms ,Title,ButtonLoad,WrapperBtn} from './MovieList.styled';
 import {MovieItem} from 'components/MovieItem/MovieItem'
-import { getTrendingMovies } from '../../services/fetchMovies';
+import { getTrendingMovies } from 'services/fetchMovies';
 
 
 

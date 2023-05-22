@@ -1,5 +1,5 @@
 import {  useState } from 'react'
-import { ReactComponent as SearchButton } from 'components/img/icons/SearchButton.svg';
+import { ReactComponent as SearchButton } from '../../img/icons/SearchButton.svg';
 import {Form,ButtonLabel,FormInput,FormButton} from './SearchForm.styled'
 
 export const SearchForm = ({ setSearchParams }) => {

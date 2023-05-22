@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import defaultImg from 'components/img/defaultImage.jpg';
+import defaultImg from '../../img/defaultImage.jpg';
 import {Item,Img,Title,} from './MovieItem.styled'
 import { ImgWrapper } from 'components/FilmsList/FilmsList.styled';
 import {TitleBox} from 'components/MovieItem/MovieItem.styled'

@@ -1,5 +1,5 @@
 import { useLocation, Link } from 'react-router-dom';
-import { BASE_URL } from 'components/utils/const';
+import { BASE_URL } from 'utils/const';
 
 import {
   ImgWrapper,
@@ -11,7 +11,7 @@ import {
   BoxImg,
   TitleBox,
 } from './FilmsList.styled';
-import defaultMovie from 'components/img/defaultMovie.jpeg';
+import defaultMovie from '../../img/defaultMovie.jpeg';
 
 const ImgDefaultMovie = defaultMovie;
 

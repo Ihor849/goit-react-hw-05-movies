@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
-import { getCastMovie } from '../../services/fetchMovies';
-import { BASE_URL, PLACEHOLDER } from 'components/utils/const';
+import { getCastMovie } from 'services/fetchMovies';
+import { BASE_URL, PLACEHOLDER } from 'utils/const';
 import { ListItem, StyledList,Info } from './Cast.styled';
 
 const Cast = () => {

@@ -4,12 +4,12 @@ import {
   useLocation,
   useParams,
 } from 'react-router-dom';
-import { ReactComponent as Exit } from 'components/img/icons/Exit.svg';
-import { ReactComponent as Masks } from 'components/img/icons/Masks.svg';
-import { ReactComponent as Thumbs } from 'components/img/icons/Thumbs.svg';
+import { ReactComponent as Exit } from '../../img/icons/Exit.svg';
+import { ReactComponent as Masks } from '../../img/icons/Masks.svg';
+import { ReactComponent as Thumbs } from '../../img/icons/Thumbs.svg';
 
-import { getMovieById } from '../../services/fetchMovies';
-import { BASE_URL } from 'components/utils/const';
+import { getMovieById } from 'services/fetchMovies';
+import { BASE_URL } from 'utils/const';
 import {
   FilmWrapper,
   Wrapper,

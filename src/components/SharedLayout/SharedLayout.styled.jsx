@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
 // import logoImage from 'images/logo-camera.png';
-import background from 'components/img/zvezdnoe-nebo.jpg';
+import background from '../../img/zvezdnoe-nebo.jpg';
 // import propTypes from 'prop-types';
 
 export const Container = styled.div`
